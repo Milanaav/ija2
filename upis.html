@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<title>Upis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<img src="logo.png">
+<h1>VTŠ Novi Sad</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Naslovna</a></li>
+<li><a href="vesti.html">Vesti</a></li>
+<li><a href="onama.html">O nama</a></li>
+<li><a href="upis.html">Upis</a></li>
+</ul>
+</nav>
+
+<section class="upis-wrapper">
+
+<div class="upis-box">
+
+<h2>Prijava</h2>
+
+<input type="text" id="ime" placeholder="Ime i prezime">
+
+<select id="smer">
+<option>Veb dizajn</option>
+<option>IT</option>
+<option>Mašinstvo</option>
+</select>
+
+<button onclick="prijava()">Pošalji</button>
+
+<div id="ispis"></div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
